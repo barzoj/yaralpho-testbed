@@ -1,5 +1,9 @@
+import os
+import sys
 import unittest
 from dataclasses import dataclass
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from bubble_sort import bubble_sort
 
