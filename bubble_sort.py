@@ -30,4 +30,3 @@ def bubble_sort(items: Iterable[T]) -> List[T]:
             break
 
     return arr
-
